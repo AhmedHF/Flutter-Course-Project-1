@@ -64,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
         case '/':
         case '%':
           str += buttonText;
+          print("string " + str);
           if (shouldCalculate) {
             _calculate();
           } else {
